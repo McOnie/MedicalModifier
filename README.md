@@ -1,14 +1,14 @@
-# Daedalus-MultiplyWeightLimits
-Modifies your PMC's OverweightLimits and the maximum value of InertiaLimits by a multiplier of your choice set in the config, by default 1.5 (50%). At the default value it substantially increases both the maximum weight your PMC can carry, and the thresholds where they will start being encumbered, slowed down and suffer stamina penalties.
+# Medical Modifier
 
-Multiplies the following globals:
+Easily configure medical items including the number of uses, the rate of use (for medkits), and the time is takes to use the item.
 
-Globals.Configuration.Stamina.BaseOverweightLimits
+This mod was inspired by medical attention and was made to be used as a stop-gap until that much better mod was updated.
 
-Globals.Configuration.Stamina.SprintOverweightLimits
+## Override Options
+By default all option are set to false and need to enabled for affects to take place. Every medical item is included, and you simply need to configure the option to the desired value
 
-Globals.Configuration.Stamina.WalkOverweightLimits
+## Installation
+Like most other mods, simply drop the contents of the zip file into root of your SPT install.
 
-Globals.Configuration.Stamina.WalkSpeedOverweightLimits
-
-Globals.Configuration.Inertia.InertiaLimits
+## Bugs, Problems or Suggestions
+If you find any bugs or problems, please leave a comment on the SPT mod page.
