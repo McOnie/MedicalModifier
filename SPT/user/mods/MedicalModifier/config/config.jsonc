@@ -1,0 +1,280 @@
+{
+
+// ------------------------------------------------------------------------------------------
+// Medical Modifier v1.0.0
+// ------------------------------------------------------------------------------------------
+
+// Options Information ----------------------------------------------------------------------
+
+  // All items have Enable set to false by default
+
+  // Enable
+    // Self explanatory; if set to true enables override for that item
+
+  // hpResource
+    // Overrides number of item uses
+
+  // hpResourceRate
+    // Overrides rate at which the hpResource is used ( applied to medkits only )
+
+  // medUseTime
+    // Overrides the time it takes to use item in seconds ( 1 is essentially instant use )
+
+// ------------------------------------------------------------------------------------------
+// Med Kits
+// ------------------------------------------------------------------------------------------
+  "MedKits": {
+    "AI-2": {
+      "Enable": true,
+      "MaxHpPool": 250,
+      "HpPoolUseRate": 50,
+      "MedUseTime": 2
+    },
+    "Car": {
+      "Enable": true,
+      "MaxHpPool": 500,
+      "HpPoolUseRate": 50,
+      "MedUseTime": 2
+    },
+    "Salewa": {
+      "Enable": true,
+      "MaxHpPool": 900,
+      "HpPoolUseRate": 50,
+      "MedUseTime": 3
+    },
+    "IFAK": {
+      "Enable": true,
+      "MaxHpPool": 500,
+      "HpPoolUseRate": 50,
+      "MedUseTime": 3
+    },
+    "AFAK": {
+      "Enable": true,
+      "MaxHpPool": 700,
+      "HpPoolUseRate": 50,
+      "MedUseTime": 3
+    },
+    "Grizzly": {
+      "Enable": true,
+      "MaxHpPool": 5000,
+      "HpPoolUseRate": 100,
+      "MedUseTime": 5
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Injectors
+// ------------------------------------------------------------------------------------------
+  "Injectors": {
+    "Morphine": {
+      "Enable": true,
+      "MaxHpPool": 10,
+      "MedUseTime": 1
+    },
+    "L1": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Trimadol": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Adrenaline": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Propital": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "eTG": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "xTG": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Perfotoran": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "AHF1": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Zagustin": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "PNB": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "P22": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Meldonin": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "SJ1": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "SJ6": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "3-b-TG": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "2A2-b-TG": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Obdolbos": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "Obdolbos2": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "M.U.L.E": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "SJ9": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    },
+    "SJ12": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Painkillers
+// ------------------------------------------------------------------------------------------
+  "Painkillers": {
+    "Analgin": {
+      "Enable": true,
+      "MaxHpPool": 20,
+      "MedUseTime": 2
+    },
+    "Augmentin": {
+      "Enable": true,
+      "MaxHpPool": 10,
+      "MedUseTime": 2
+    },
+    "Ibuprofen": {
+      "Enable": true,
+      "MaxHpPool": 30,
+      "MedUseTime": 5
+    },
+    "Vaseline": {
+      "Enable": true,
+      "MaxHpPool": 25,
+      "MedUseTime": 2
+    },
+    "GoldenStar": {
+      "Enable": true,
+      "MaxHpPool": 50,
+      "MedUseTime": 2
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Surgical Kits
+// ------------------------------------------------------------------------------------------
+  "SurgicalKits": {
+    "CMS": {
+      "Enable": true,
+      "MaxHpPool": 10,
+      "MedUseTime": 3
+    },
+    "Surv12": {
+      "Enable": true,
+      "MaxHpPool": 20,
+      "MedUseTime": 5
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Tourniquets
+// ------------------------------------------------------------------------------------------
+  "Tourniquets": {
+    "CAT": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 2
+    },
+    "CALOK-B": {
+      "Enable": true,
+      "MaxHpPool": 10,
+      "MedUseTime": 2
+    },
+    "Esmarch": {
+      "Enable": true,
+      "MaxHpPool": 2,
+      "MedUseTime": 2
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Bandages
+// ------------------------------------------------------------------------------------------
+  "Bandages": {
+    "Aseptic": {
+      "Enable": true,
+      "MaxHpPool": 8,
+      "MedUseTime": 1
+    },
+    "Army": {
+      "Enable": true,
+      "MaxHpPool": 4,
+      "MedUseTime": 1
+    }
+  },
+
+// ------------------------------------------------------------------------------------------
+// Splints
+// ------------------------------------------------------------------------------------------
+  "Splints": {
+    "Aluminum": {
+      "Enable": true,
+      "MaxHpPool": 20,
+      "MedUseTime": 1
+    },
+    "Immobilizing": {
+      "Enable": true,
+      "MaxHpPool": 5,
+      "MedUseTime": 1
+    }
+  }
+}
