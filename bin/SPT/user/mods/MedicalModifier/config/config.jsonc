@@ -11,13 +11,13 @@
   // Enable
     // Self explanatory; if set to true enables override for that item
 
-  // hpResource
+  // MaxHpPool
     // Overrides number of item uses
 
-  // hpResourceRate
+  // HpPoolUseRate
     // Overrides rate at which the hpResource is used ( applied to medkits only )
 
-  // medUseTime
+  // MedUseTime
     // Overrides the time it takes to use item in seconds ( 1 is essentially instant use )
 
 // ------------------------------------------------------------------------------------------
@@ -25,37 +25,37 @@
 // ------------------------------------------------------------------------------------------
   "MedKits": {
     "AI-2": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 250,
       "HpPoolUseRate": 50,
       "MedUseTime": 2
     },
     "Car": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 500,
       "HpPoolUseRate": 50,
       "MedUseTime": 2
     },
     "Salewa": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 900,
       "HpPoolUseRate": 50,
       "MedUseTime": 3
     },
     "IFAK": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 500,
       "HpPoolUseRate": 50,
       "MedUseTime": 3
     },
     "AFAK": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 700,
       "HpPoolUseRate": 50,
       "MedUseTime": 3
     },
     "Grizzly": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5000,
       "HpPoolUseRate": 100,
       "MedUseTime": 5
@@ -67,112 +67,112 @@
 // ------------------------------------------------------------------------------------------
   "Injectors": {
     "Morphine": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 10,
       "MedUseTime": 1
     },
     "L1": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Trimadol": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Adrenaline": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Propital": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "eTG": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "xTG": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Perfotoran": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "AHF1": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Zagustin": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "PNB": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "P22": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Meldonin": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "SJ1": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "SJ6": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "3-b-TG": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "2A2-b-TG": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Obdolbos": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "Obdolbos2": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "M.U.L.E": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "SJ9": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     },
     "SJ12": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     }
@@ -183,27 +183,27 @@
 // ------------------------------------------------------------------------------------------
   "Painkillers": {
     "Analgin": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 20,
       "MedUseTime": 2
     },
     "Augmentin": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 10,
       "MedUseTime": 2
     },
     "Ibuprofen": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 30,
       "MedUseTime": 5
     },
     "Vaseline": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 25,
       "MedUseTime": 2
     },
     "GoldenStar": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 50,
       "MedUseTime": 2
     }
@@ -214,12 +214,12 @@
 // ------------------------------------------------------------------------------------------
   "SurgicalKits": {
     "CMS": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 10,
       "MedUseTime": 3
     },
     "Surv12": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 20,
       "MedUseTime": 5
     }
@@ -230,17 +230,17 @@
 // ------------------------------------------------------------------------------------------
   "Tourniquets": {
     "CAT": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 2
     },
     "CALOK-B": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 10,
       "MedUseTime": 2
     },
     "Esmarch": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 2,
       "MedUseTime": 2
     }
@@ -251,12 +251,12 @@
 // ------------------------------------------------------------------------------------------
   "Bandages": {
     "Aseptic": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 8,
       "MedUseTime": 1
     },
     "Army": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 4,
       "MedUseTime": 1
     }
@@ -267,12 +267,12 @@
 // ------------------------------------------------------------------------------------------
   "Splints": {
     "Aluminum": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 20,
       "MedUseTime": 1
     },
     "Immobilizing": {
-      "Enable": true,
+      "Enable": false,
       "MaxHpPool": 5,
       "MedUseTime": 1
     }

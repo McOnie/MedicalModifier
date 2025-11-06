@@ -1,0 +1,12 @@
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\bin\Debug\net9.0\WeaponAttachmentModifier.deps.json
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\bin\Debug\net9.0\WeaponAttachmentModifier.dll
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\bin\Debug\net9.0\WeaponAttachmentModifier.pdb
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.csproj.AssemblyReference.cache
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.AssemblyInfoInputs.cache
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.AssemblyInfo.cs
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.csproj.CoreCompileInputs.cache
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.dll
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\refint\WeaponAttachmentModifier.dll
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\WeaponAttachmentModifier.pdb
+C:\Users\mconi\source\repos\Daedalus-MultiplyWeightLimits-main\obj\Debug\net9.0\ref\WeaponAttachmentModifier.dll
